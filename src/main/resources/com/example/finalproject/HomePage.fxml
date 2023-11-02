@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.HomePageController">
+    <children>
+        <Text text="Welcome to Masathai Citizenship Test">
+            <font>
+                <Font name="Arial" size="20.0" fx:id="x1" />
+            </font>
+        </Text>
+        <Button fx:id="loginButton" onAction="#handleLoginButtonClick" text="Log In" />
+        <Button fx:id="registerButton" onAction="#handleRegisterButtonClick" text="Register" />
+    </children>
+</VBox>
